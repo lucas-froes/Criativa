@@ -921,6 +921,7 @@ footer{
   }
   .sobre-img{
     margin:0 1rem;
+    text-align: center;
   }
   .sobre-img h1{
     position: relative;
@@ -1040,6 +1041,7 @@ ul{
 }
 .ncm-box-img{
   margin: 0 1rem;
+  text-align: center;
 }
 .ncm{
   padding: 0;
@@ -1068,5 +1070,143 @@ ul{
   }
   .ncm-box-img h1{
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px){
+  .sobre-img img{
+    width: 60%;
+    height: 60%;
+    margin-top: 1rem;
+  }
+  .sobre-img{
+    margin:0 1rem;
+    text-align: center;
+  }
+  .ncm-box-img img{
+    max-width: 60%;
+    height: 60%;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+  }
+  .ncm-box-img{
+    margin: 0 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1250px){
+  .logo{
+    margin-left: 3%;
+  }
+  .texto-inicial{
+    margin-left: 3%;
+  }
+  .texto-inicial h1, .texto-inicial p, .button-box button{
+    margin-left: 0;
+  }
+ 
+  /***** Sobre a Criativa***/
+  .sobre-texto p{
+    margin-right: 2rem;
+  }
+
+/***Sobre Assisente Virtual******/
+.explic-info{
+  margin: 0 2rem;
+}
+.how-av h2, .what-av h2{
+  font-size: 2.1rem;
+}
+.explic-info p{
+  font-size: 1.25rem;
+}
+/*** Serviços***/
+
+.servicos-box{
+  margin: 0 2rem;
+}
+.servicos-texto, .servicos-lista{
+  margin-top: 3rem;
+}
+.servicos-texto{
+  align-self: center;
+}
+.servicos-texto p{
+  font-size: 1.25rem;
+}
+.servicos-lista ul{
+  padding-left: 0;
+}
+
+/**** Parceiros****/
+.parceiro-texto{
+  margin: 0 2rem;
+}
+.parceiros-icon{
+  align-self: center;
+}
+/*** Nos conheça melhor***/
+.ncm-box{
+  display: inline-block;
+}
+.ncm-box-img img{
+  height: auto;
+  margin-left: 0;
+  margin-right: 1rem;
+}
+.ncm-box-img{
+  float: left;
+}
+.ncm-box-texto{
+  max-width: 100%;
+  margin-left: 2rem;
+  margin-top: 9.75rem ;
+}
+.ncm-box-texto p{
+  text-align: justify;
+  width: 100%;
+}
+}
+
+/*** Ajuste***/
+@media only screen and (min-width: 1025px) and (max-width:1114px){
+  .box-3 .separador{
+    margin-top: 3.6875rem;
+  }
+  
+}
+@media only screen and (min-width: 1114px){
+  .box-2 .separador{
+    margin-top: 3.6875rem;
+  }
+  .box-3 .separador{
+    margin-top: 2rem;
+  }
+}
+@media only screen and (min-width: 1225px) and (max-width:1251px){
+  .box-2 .separador{
+    margin-top: 5.375rem;
+  }
+
+}
+
+
+@media only screen and (min-width:1252px){
+
+  .box-2 .separador{
+    margin-top: 5.375rem;
+  }
+  .ncm-box{
+    gap: 1rem;
+  }
+  .ncm-box-img img{
+    object-fit: contain;
+  }
+ 
+}
+@media only screen and (min-width:1252px){
+  .logo{
+    margin-left: 3%;
   }
 }
